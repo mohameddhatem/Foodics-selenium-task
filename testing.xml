@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="AmazonAutomationSuite" parallel="tests" thread-count="2">
+    <test name="AmazonTests">
+        <classes>
+            <!-- Your test class for running the Amazon flow -->
+            <class name="tests.AmazonTest"/>
+        </classes>
+    </test>
+</suite>
